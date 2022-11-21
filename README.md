@@ -1,7 +1,7 @@
 # p4-encoderOptico
 
 El objetivo de esta práctica es entender el mecanismo que utiliza un encoder usando un sensor óptico. 
-Los encoders son los sensores más utilizados para la medición de sistemas rotacionales. El encoder óptico que vamos a utilizar está compuesto por un emisor de luz (normalmente un [fotodiodo](https://como-funciona.co/fotodiodo/))y un receptor ([fototransistor](https://tallerelectronica.com/fototransistor/)). 
+Los encoders son los sensores más utilizados para la medición de sistemas rotacionales. El encoder óptico que vamos a utilizar está compuesto por un emisor de luz (normalmente un [fotodiodo](https://como-funciona.co/fotodiodo/)) y un receptor ([fototransistor](https://tallerelectronica.com/fototransistor/)). 
 
 El mecanismo es sencillo, cuando el disco gira la señal se hace alternante que es directamente proporcional a la velocidad de rotación del eje, además, se puede calcular la resolución de un encoder con la siguiente imágen:
 
@@ -25,7 +25,7 @@ Finalmente, se ha empleado el soporte para la rueda creado por Diego García y I
 
 ![Soporte 1 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-48-48.png) ![Soporte 2 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-49-01.png)
 
-finalmente: el circuito queda de la siguiente manera:
+**El circuito queda de la siguiente manera:**
 
 AÑADIR FOTO DEL FRIZTING DEL CIRCUITO CON MOTOR INCLUIDO
 
