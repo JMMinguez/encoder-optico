@@ -25,11 +25,18 @@ Finalmente, se ha empleado el soporte para la rueda creado por Diego García y I
 
 ![Soporte 1 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-48-48.png) ![Soporte 2 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-49-01.png)
 
+finalmente: el circuito queda de la siguiente manera:
+
+AÑADIR FOTO DEL FRIZTING DEL CIRCUITO CON MOTOR INCLUIDO
+
+
 ## Ejercicio
 
 Para este ejercicio hemos tenido que emplear lo aprendido en la p3 sobre los eventos. La función principal es un add_event_detecr que va contando los pulsos para después, con una fórmula, sacar las revoluciones por minuto (rpm) del motor. 
 
 Lo que más nos ha costado de esta práctica es sin duda montar el circuito. Al principio queríamos utilizar un [amplificador operacional](https://www.diarioelectronicohoy.com/blog/el-amplificador-operacional) para conectar el motor y poder utilizarlo durante tiempos fijos, pero en el kit proporcionado no contábamos con ninguno que tuviese una señal **enable** para poder controlarlo desde la placa. Para solucionar esto, lo más sencillo y práctico era conectar directamente el motor a la placa junto con un pulsador para activarlo cuando queramos.
+
+Finalmente, el tema de crear el circuito también nos ha costado pues no terminábamos de comprender el divisor de voltaje.
 
 
 
