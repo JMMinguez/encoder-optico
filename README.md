@@ -17,6 +17,20 @@ Se ha utilizado además un sistema divisor de voltaje porporcionado por el profe
 
 ![Divisor de voltaje](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-40-42.png)
 
-También, se ha utilizado un [motor dc](https://harmonicdrive.de/es/glosario/motor-dc) para hacer girar una rueda con muescas.
+También, se ha utilizado un [motor dc](https://harmonicdrive.de/es/glosario/motor-dc) para hacer girar una rueda con muescas:
 
-Finalmente, 
+![Rueda empelada p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-48-13.png)
+
+Finalmente, se ha empleado el soporte para la rueda creado por Diego García y Ioana Pasca:
+
+![Soporte 1 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-48-48.png) ![Soporte 2 p4](https://github.com/rsanchez2021/Image/blob/main/Captura%20desde%202022-11-21%2013-49-01.png)
+
+## Ejercicio
+
+Para este ejercicio hemos tenido que emplear lo aprendido en la p3 sobre los eventos. La función principal es un add_event_detecr que va contando los pulsos para después, con una fórmula, sacar las revoluciones por minuto (rpm) del motor. 
+
+Lo que más nos ha costado de esta práctica es sin duda montar el circuito. Al principio queríamos utilizar un [amplificador operacional](https://www.diarioelectronicohoy.com/blog/el-amplificador-operacional) para conectar el motor y poder utilizarlo durante tiempos fijos, pero en el kit proporcionado no contábamos con ninguno que tuviese una señal **enable** para poder controlarlo desde la placa. Para solucionar esto, lo más sencillo y práctico era conectar directamente el motor a la placa junto con un pulsador para activarlo cuando queramos.
+
+
+
+
