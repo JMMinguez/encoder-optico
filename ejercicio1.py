@@ -1,7 +1,7 @@
 #------------------------------
 #Ejercicio: Práctica p4 sensores y actuadores --> 
 #Autores: Jorge Martín y Rebeca Sánchez
-#Fecha límite de entrega: 23/11/22
+#Fecha límite de entrega: 25/11/22
 #Objetivo: obtener la velocidad angular (rpm) del encoder
 #------------------------------
 
@@ -13,8 +13,9 @@ import RPi.GPIO as GPIO
 OPTOINTERRUPTOR= 15
 BOUNCETIME= 100
 n=0
-MUESCAS= 10
+MUESCAS= 1
 TIME=2
+MIN=60
 contador = 0
 rpm = 0
 
@@ -24,7 +25,7 @@ def callbackContador(canal):
     n=n+1
 
 def print_rpm(contador):
-    print(contador*60/MUESCAS/TIME, "revoluciones por minuto (rpm)")
+    print((contador)*(MIN/TIME), "revoluciones por minuto (rpm)")
     time.sleep(TIME)
 
     
@@ -47,3 +48,7 @@ def callbackSalir(senial,cuadro):
         
 if __name__=="__main__":
      main()
+     
+#--------------------
+#CASOS DE USO:
+#--------------------
